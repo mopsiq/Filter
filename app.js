@@ -69,7 +69,6 @@ let obj = {
   ]
 };
 
-
 let arrNames = getArrayParams(obj, 'name');
 let arrAges = getArrayParams(obj, 'age');
 let arrIdentity = getArrayParams(obj, 'secretIdentity');
