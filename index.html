@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <select class="select" name="list" id="fullList">
+        <option value="none" hidden="">Выберите тип</option>
+        <option class="opt" value="var0">All</option>
+        <option class="opt" value="var1">Name</option>
+        <option class="opt" value="var2">Age</option>
+        <option class="opt" value="var3">Identity</option>
+        <option class="opt" value="var4">More information</option>
+    </select>
+    
+    <select disabled name="sort" id="fullSort" class="select">
+        <option value="none" hidden="">Сортировать</option>
+        <option class="" value="sort1">От А до Я</option>
+        <option class="" value="sort2">От Я до А</option>
+    </select>
+    
+    <div class="block">
+        <div class="block__inner" dataset="var1">
+            <div class="block__item"></div>
+        </div>
+        
+        <div class="block__inner" dataset="var2">
+            <div class="block__item"></div>
+        </div>
+        
+        <div class="block__inner" dataset="var3">
+            <div class="block__item"></div>
+        </div>
+        
+        <div class="block__inner" dataset="var4">
+            <div class="block__item"></div>
+        </div>
+    </div>
+    
+    <div class="test__block">
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

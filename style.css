@@ -1,0 +1,19 @@
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.block__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
